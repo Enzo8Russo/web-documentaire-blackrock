@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Prompt:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.content {
+    text-align: center;
+}
+
+.bienvenue_h1_1 {
+	font: 40px/48px FortExtraBold,Arial,sans-serif;
+	font-weight: 900;
+}
+
+.bienvenue_p_1 {
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+
+.bienvenue_a_1 {
+	text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 12px 30px;
+    transition: all 0.5s ease;
+}
+
+.bienvenue_a_1:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}

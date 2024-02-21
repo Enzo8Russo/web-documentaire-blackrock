@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Prompt:wght@700&family=Roboto:wght@400&display=swap');
+/* Variables */
+:root {
+    --color1: #283747;
+    --color2: #1446A0;
+    --color3: #58D68D;
+    --color4: #F8C7CC;
+    --color5: #FCF7FF;
+  }
+
+.index_a_2 {
+  font-family: Roboto;
+  width: max-content;
+    margin: auto;
+  display: none;
+    align-items: center;
+    justify-content: center;
+  text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 12px 30px;
+    transition: all 0.5s ease;
+}
+
+.index_a_2:hover {
+  background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+  
+  .mockchat,
+  .mockchat *,
+  .mockchat *:after,
+  .mockchat *:before {
+    box-sizing: border-box;
+  }
+  
+  .mockchat {
+    position: relative;
+    color: var(--color1);
+    max-width: 325px;
+    margin: 0 auto;
+    line-height: 1.25;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      "Helvetica", "Arial", sans-serif;
+  }
+  
+  .mockchat .device {
+    width: 100%;
+    margin: 0 auto;
+    background: var(--color4);
+    padding-top: 200%;
+    border-radius: 25px;
+    box-shadow: 0 10px 40px rgba(var(--color1), 0.4);
+    position: relative;
+    background: var(--color1);
+    transition: all 0.5s;
+  }
+  
+  
+  .mockchat .app {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    transition: all 0.3s;
+  }
+  
+  .mockchat .reply {
+    transform-origin: 100% 50%;
+    margin: 0.25em 0 0.25em 1.5em !important;
+    width: calc(100% - 3em);
+    background: white;
+    border-radius: 1.5em;
+    position: relative;
+    padding: 0.75em 1em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    transform: translateY(2em) scale(0.5);
+    animation: mockchat-reply-pop cubic-bezier(0, 0.81, 0.58, 1.2) 0.4s;
+    animation-fill-mode: forwards;
+    text-align: right;
+    transition: all 0.3s;
+    max-height: 0;
+  }
+  
+  .mockchat .reply:nth-child(2n - 1) {
+    transform-origin: 0 50%;
+    margin: 0.25em 1.5em 0.25em 1.5em !important;
+    width: calc(100% - 3em);
+    background: #1446A0;
+    color: white;
+    text-align: left;
+  }
+  
+  .mockchat .reply:nth-child(2n - 1):after {
+    display: block;
+    content: "";
+    background: #58D68D;
+    position: absolute;
+    height: 0.75em;
+    width: 0.75em;
+    left: -1.5em;
+    top: 1.375em;
+    border-radius: 99999px;
+    font-size: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    font-weight: bold;
+  }
+  
+  .mockchat .reply.dots {
+    transform-origin: 50% 50%;
+    margin: 0.25em 35% 0.25em 35% !important;
+    max-width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  .mockchat .reply.dots:after {
+    display: none;
+  }
+  
+  .mockchat .reply.dots span {
+    display: block;
+    height: 4px;
+    width: 4px;
+    background: currentColor;
+    display: inline-block;
+    border-radius: 99999px;
+    margin: 0.25em 0.15em;
+    opacity: 0;
+    animation: mockchat-dots 0.5s infinite alternate;
+    transform: translateY(0.25em);
+  }
+  
+  .mockchat .reply.dots span:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .mockchat .reply.dots span:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes mockchat-dots {
+    to {
+      transform: translateY(-0.2em);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes mockchat-blink {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes mockchat-reply-pop {
+    to {
+      transform: none;
+      font-size: 1rem;
+      opacity: 1;
+      max-height: 200px;
+    }
+  }
+
+  h1{
+    color: white;
+  }
+  

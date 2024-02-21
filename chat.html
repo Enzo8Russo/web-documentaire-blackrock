@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero is-info is-fullheight is-bold is-centered">
+        <div class="hero-body">
+          <div class="container">
+                <div id="mockChat">
+                </div>
+                <a href="bienvenue.html" class="index_a_2" style="margin-top: 15px;    justify-content: center;
+    align-items: center;text-decoration: none; text-transform: uppercase;">Allez sur BlackRock ?</a>
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          
+          mockChat.init({
+            id: "mockChat",
+            data: ["Salut c'est Jean", "Ah salut Jean, tu voulais me parler de quelque chose ?", "Oui, Tu connais l'entreprise BlackRock ?", "Non jamais entendu parlé", "Ca ne m'étonne pas, tiens vas jeter un coup d'oeil sur ce bouton en bas...", "Ok, j'espère que c'est pas une mauvaise blague"],
+            loop: true,
+            delay: 3000, 
+            startDelay: 1200, 
+            loop: false,
+          });
+          
+        })
+      </script>
+      <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Sélectionnez votre lien par sa classe
+    var lien = document.querySelector('.index_a_2');
+
+    // Définissez le délai en millisecondes (par exemple, 5000 millisecondes = 5 secondes)
+    var delaiAffichage = 15000;
+
+    // Utilisez setTimeout pour afficher le lien après le délai spécifié
+    setTimeout(function() {
+      lien.style.display = 'flex'; // Affichez le lien
+    }, delaiAffichage);
+  });
+</script>
+      <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.375);
+    padding: 10px 20px;
+    position:fixed;
+    width:100%;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    float: left;
+}
+
+#menu ul li{ 
+    display: inline;
+    float:right;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+#z1{
+    background: url("https://image.cdn2.seaart.ai/2023-10-03/18866693223806981/05a35dc37182ea41d921ccae3a4d2a018784acb9_high.webp") center 0 no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    height:1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#z2{
+    background: url("https://image.cdn2.seaart.ai/2023-09-30/18577379402193925/1dfbcf40e7759b04fa04b26cf8d7a328e2d0f479_high.webp") center 0 no-repeat fixed;
+    background-position: center;
+    background-size: 100% 1200px;
+    height:1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#z3{
+    background: url("https://image.cdn2.seaart.ai/2023-09-21/17780633436710917/ad5adf5d74d26ed367471bed6423aab48ace322f_high.webp") center 0 no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+    height:1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#z4{
+    background: url("https://image.cdn2.seaart.ai/2023-09-27/18322196533358597/a5bce0ae3f217a9d830ffdbea61b1e079cc1ff4c_high.webp") center 0 no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+    height:1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    float:left;
+}
+
+#sc1{
+    width: 350px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.375);
+    padding: 20px;
+}
+
+#sc2{
+    width: 500px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.375);
+    padding: 20px;
+}
+
+#sc3{
+    width: 1000px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.375);
+    padding: 20px;
+    text-align: center;
+}
+
+#sc4{
+    width: 350px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.375);
+    padding: 20px;
+}
